@@ -1,0 +1,4 @@
+<launch>
+    <!-- Iniciar el nodo ROS -->
+    <node name="pose_subscriptor_node" pkg="position_compare" type="position_compare" output="screen" />
+</launch>
